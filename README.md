@@ -1,0 +1,2 @@
+# simple_applications_for_practice_project
+simple_applications_for_practice_projects
