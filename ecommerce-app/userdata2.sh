@@ -11,13 +11,14 @@ sudo yum install git -y
 
 
 # Clone the repository
-git clone https://github.com/cvamsikrishna11/ecommerce-web-app.git
+git clone https://github.com/TheModeler99/simple_applications_for_practice_project.git
 
 # Copy the files inside the cloned folder to the desired location
-sudo cp -r ecommerce-web-app/server1/* /var/www/html/
+sudo cp -r simple_applications_for_practice_project/ecommerce-app/server2/* /var/www/html/
 
 # To get the current hostname address
 echo "<center><p>Running the website from instance host: $(hostname -f)</p></center>" >> /var/www/html/index.html
+
 
 # Start and enable the HTTP server
 sudo systemctl start httpd
